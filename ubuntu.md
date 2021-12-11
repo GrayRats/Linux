@@ -275,6 +275,19 @@ sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt update
 sudo apt install mcomix
 ```
+##### Apache OpenOffice
+```
+sudo apt update 
+sudo apt install OpenOffice
+https://sourceforge.net/projects/openofficeorg.mirror/files/4.1.11/binaries/ru/Apache_OpenOffice_4.1.11_Linux_x86-64_install-deb_ru.tar.gz
+```
+##### Microsoft_Office WINE
+https://help.ubuntu.com/community/Microsoft_Office
+```
+sudo apt-get install wine
+winecfg
+wine "e:\setup.exe"
+```
 ### Development
 ##### Ubuntu Make
 ```
@@ -380,6 +393,23 @@ rvm use ...
 I had the same problem until I put [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" into a .zshenv file instead of the .zshrc file.
 
 ##### LAMP
+L.A.M.P— акроним, обозначающий набор (комплекс) серверного программного обеспечения.[Wiki](https://ru.wikipedia.org/wiki/LAMP)
+Linux, Apache, MariaDB/MySQL  и PHP
+
+[Личный опыт настройки LAMP](https://habr.com/ru/post/594889/)
+```
+Инстукция [yandex](https://cloud.yandex.ru/docs/solutions/web/lamp-lemp)
+[webdock.io](https://webdock.io/en/docs/perfect-server-stacks/nginx-stacks)
+```
+
+```
+
+```
+L.E.M.P— акроним, вместо Apache в нем используется веб-сервер Nginx.
+LEMP
+```
+
+```
 ###### Apache
 ```
 sudo apt install apache2
@@ -685,7 +715,7 @@ or
 ```
 sudo sed -i 's/UTC=no/UTC=yes/' /etc/default/rcS
 ```
-or
+or WIN
 ```
 Windows Registry Editor Version 5.00
 
@@ -698,6 +728,7 @@ sc config w32time start= demand
 And reboot.
 
 ### Fix tearing on NVIDIA 
+(FixED)
 ```
 sudo nano /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
 ```
