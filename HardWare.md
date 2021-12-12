@@ -6,7 +6,7 @@ wikichip
 
 [Ryzen 5000-Zen 3](https://habr.com/ru/post/522810/)
 
-[https://habr.com/ru/company/dcmiran/news/t/586648/](AMD отмечает пятилетие Zen)
+[AMD отмечает пятилетие Zen](https://habr.com/ru/company/dcmiran/news/t/586648/)
 
 [3D V-Cache](https://overclockers.ru/hardnews/show/114968/kazhdaya-chetvertaya-iz-ekspluatiruemyh-videokart-geforce-uzhe-otnositsya-k-serii-rtx)
 
